@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Bangers&family=Poppins&display=swap');
+*{
+    /* margin: 0; */
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.navbar-brand:hover{
+    transform:scale(1.1);
+}
+
+.header{
+    background-image: url("header.png");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.intro{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 225px !important;
+}
+.portfolio{
+    width: 100%;
+  background-color: #181717f1;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+     height: auto;   
+}
+.portfolio_heading{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.about_heading{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold; 
+}
+.about{
+    width: 100%;
+    height: auto;
+    background-color: #181717f1;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+
+}
+.skills{
+    width: 100%;
+    height: auto;
+    background-color: #181717f1;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.skills_heading{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold; 
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #181717f1;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.contact_heading{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold; 
+}
+.contact_card{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_card:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#ID_btn{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(20, 19, 19);
+    border: 2px solid transparent;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+#ID_btn:hover{
+    background-color: black;
+}
+.footer_section{
+background-image: url("footer.png");
+background-size: cover;
+width: 100%;
+height: auto;
+background-position: fixed;
+background-repeat: no-repeat;
+}
+.web_designing_photo {
+    border:2px solid transparent;
+     border-radius: 10px;
+}
+.web_designing_text{
+    flex-direction: column;
+}
+.footer_text{
+    display: inline-block;
+}
