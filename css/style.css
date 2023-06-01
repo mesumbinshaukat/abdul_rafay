@@ -11,7 +11,7 @@
 }
 
 .header{
-    background-image: url("header.png");
+    background-image: url("../images/header.png");
     background-size: cover;
     width: 100%;
     height: 700px;
@@ -137,7 +137,7 @@
     background-color: black;
 }
 .footer_section{
-background-image: url("footer.png");
+background-image: url("../images/footer.png");
 background-size: cover;
 width: 100%;
 height: auto;
